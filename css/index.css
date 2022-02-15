@@ -1,0 +1,17 @@
+#section-organisers .bcontainer {
+    margin: 0;
+}
+
+#section-organisers,
+#section-strategic-partners {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+@media screen and (min-width: 1024px) {
+    #section-partners .bcontainer,
+    #section-strategic-partners .bcontainer {
+        min-height: 100px;
+    }
+
+}
