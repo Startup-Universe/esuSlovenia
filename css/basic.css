@@ -13,7 +13,7 @@ h2,
 h3,
 h4,
 h5,
-h6 { 
+h6 {
     color: #191b1d;
     font-family: 'Montserrat', sans-serif;
 }
@@ -119,7 +119,7 @@ a:active {
 
 .link-white {
     color: rgba(255,255,255,.8);
-} 
+}
 
 .link-white:hover,
 .link-white:focus,
@@ -162,6 +162,13 @@ a:active {
 
 .card-speaker {
     border: none;
+    display: flex;
+    align-items: center;
+}
+
+.card-speaker h6,
+.card-speaker p {
+    width: 100%;
 }
 
 .card-img-top,
@@ -423,5 +430,10 @@ a:active {
         flex-basis: 270px;
         max-width: 270px;
     }
+}
 
+.card-img-bottom{
+  position: absolute;
+  padding: 5px;
+  bottom: 0px;
 }
